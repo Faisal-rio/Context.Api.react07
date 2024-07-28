@@ -1,0 +1,30 @@
+.footer {
+    background: linear-gradient(135deg, #096961, #004d40); /* Matching gradient background */
+    color: white;
+    padding: 2em; /* Increased padding for better spacing */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font family */
+    border-top: 1px solid #555; /* Subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.2rem; /* Larger text for better readability */
+  }
+  
+  .company-name {
+    font-weight: bold; /* Make the company name stand out */
+    color: #00bfae; /* Modern teal color for emphasis */
+  }
+  
+  .footer a {
+    color: #00bfae; /* Matching color for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

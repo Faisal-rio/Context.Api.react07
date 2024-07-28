@@ -1,0 +1,21 @@
+.header {
+    background: linear-gradient(135deg, #096961, #004d40); /* Gradient background for modern look */
+    color: white;
+    padding: 2em; /* Increased padding for better spacing */
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow for a 3D effect */
+  }
+  
+  .header-title {
+    font-size: 2.5rem; /* Larger font size for prominence */
+    font-weight: bold; /* Bold font weight */
+    margin: 0;
+    letter-spacing: 2px; /* Increased letter spacing for a modern touch */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for added depth */
+  }
+  
+  .header h1 {
+    font-family: 'Roboto', sans-serif; /* Ensure the font is consistent */
+  }
+  

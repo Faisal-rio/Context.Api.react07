@@ -1,0 +1,36 @@
+.product-list {
+    padding: 1em; /* Padding around the list */
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em; /* Spacing between cards */
+    justify-content: center; /* Center the cards horizontally */
+}
+
+.totals {
+    margin-top: 2em;
+    padding: 1.5em; /* Increased padding for better spacing */
+    background-color: #096961; /* Background color */
+    border: 1px solid #00bfae; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center-align text */
+    font-size: 1.2em; /* Font size for totals */
+    box-shadow: 0 2px 4px rgba(21, 21, 21, 0.1); /* Soft shadow for subtle 3D effect */
+}
+
+.totals p {
+    margin: 0.5em 0; /* Margin between lines */
+    padding: 0.5em 0; /* Padding around text */
+    border-bottom: 1px solid #00bfae; /* Bottom border line */
+}
+
+.totals p:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+}
+
+.totals span {
+    font-weight: bold; /* Bold font for values */
+    color: #fff; /* White color for emphasis */
+}
